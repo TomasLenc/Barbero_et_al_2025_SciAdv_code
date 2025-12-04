@@ -33,7 +33,7 @@ end
 
 data(:, 1, 1, 1, 1, :) = cat(1, an{:}); 
 
-header = make_lw_header('data', data, 'fs', res.AN.Fs, 'events', events); 
+header = make_lw_header('data', data, 'fs', res.AN.Fs_an_sout, 'events', events); 
     
 fname = sprintf('response-urear-an_concatEp-false'); 
 

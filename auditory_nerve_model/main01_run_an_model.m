@@ -76,7 +76,7 @@ cfg.Which_AN = 2;
 
 load(fullfile(par.data_path, 'stimuli', 'stim.mat')); 
 
-save_path = fullfile(par.deriv_path, 'cochlear_model'); 
+save_path = fullfile(par.data_path, 'cochlear_model'); 
 
 if ~isdir(save_path)
     mkdir(save_path); 
